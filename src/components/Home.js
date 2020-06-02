@@ -48,10 +48,11 @@ export default function Home() {
                            <div class="card__side card__side--back card__side--back-1">
                                 <div class="card__cta">
                                     <div class="card__price-box">
-                                        <p class="card__price-only">Only</p>
-                                        <p class="card__price-value">$297</p>
+                                    <p class="card__price-only">Project Summary:</p>
+                                        <p class="card__price-value">A workplace recognition platform to appreciate peers through rewards and in-app messages. This was a build-on project where we completely overhauled the back end and front end to handle multiple user types and created the feature of organization accounts and administrator tools for monitoring employee activity and recognition.</p>
+                                    
                                     </div>
-                                    <a href="http://www.kansharewards.com" class="btn btn--white">Book now!</a>
+                                    <a href="http://www.kansharewards.com" class="btn btn--white">View Project</a>
                                 </div>
                             </div>
                        </div>
@@ -65,15 +66,15 @@ export default function Home() {
                                     &nbsp;
                                 </div>
                                 <h4 class="card__heading">
-                                    <span class="card__heading-span card__heading-span--2">The Forest Hiker</span>
+                                    <span class="card__heading-span card__heading-span--2">Lambda Bug Tracker</span>
                                 </h4>
                                 <div class="card__details">
                                     <ul>
-                                        <li>7 day tours</li>
-                                        <li>Up to 40 people</li>
-                                        <li>6 tour guides</li>
-                                        <li>Sleep in provided tents</li>
-                                        <li>Difficulty: medium</li>
+                                        <li>ReactJS</li>
+                                        <li>Redux</li>
+                                        <li>SASS</li>
+                                        <li>NodeJS</li>
+                                        <li>Firebase</li>
                                     </ul>
                                 </div>
 
@@ -81,10 +82,10 @@ export default function Home() {
                             <div class="card__side card__side--back card__side--back-2">
                                 <div class="card__cta">
                                     <div class="card__price-box">
-                                        <p class="card__price-only">Only</p>
-                                        <p class="card__price-value">$497</p>
+                                        <p class="card__price-only">Project Summary: </p>
+                                        <p class="card__price-value">A web app that allows teams of developers to track bugs of projects they are working on. </p>
                                     </div>
-                                    <a href="#popup" class="btn btn--white">Book now!</a>
+                                    <a href="https://lambda-bug-tracker.firebaseapp.com/" class="btn btn--white">View Project</a>
                                 </div>
                             </div>
                         </div>
@@ -98,15 +99,15 @@ export default function Home() {
                                     &nbsp;
                                 </div>
                                 <h4 class="card__heading">
-                                    <span class="card__heading-span card__heading-span--3">The Snow Adventurer</span>
+                                    <span class="card__heading-span card__heading-span--3">Better Professor</span>
                                 </h4>
                                 <div class="card__details">
                                     <ul>
-                                        <li>5 day tours</li>
-                                        <li>Up to 15 people</li>
-                                        <li>3 tour guides</li>
-                                        <li>Sleep in provided tents</li>
-                                        <li>Difficulty: hard</li>
+                                    <li>ReactJS</li>
+                                        <li>Redux</li>
+                                        <li>SASS</li>
+                                        <li>NodeJS</li>
+                                        <li>Sqlite</li>
                                     </ul>
                                 </div>
 
@@ -114,10 +115,10 @@ export default function Home() {
                             <div class="card__side card__side--back card__side--back-3">
                                 <div class="card__cta">
                                     <div class="card__price-box">
-                                        <p class="card__price-only">Only</p>
-                                        <p class="card__price-value">$897</p>
+                                        <p class="card__price-only">Project Summary</p>
+                                        <p class="card__price-value">A web app that allows professors to manage deadlines and communications with their students. </p>
                                     </div>
-                                    <a href="#popup" class="btn btn--white">Book now!</a>
+                                    <a href="https://betterprofessor25.herokuapp.com/docs/" class="btn btn--white">View Project</a>
                                 </div>
                             </div>
                         </div>
@@ -125,10 +126,62 @@ export default function Home() {
                 </div>
 
                 <div class="u-center-text u-margin-top-huge">
-                    <a href="#" class="btn btn--green">Discover all tours</a>
+                    <a href="https://github.com/emilybruner" class="btn btn--green">View More Work on Github</a>
                 </div>
             </section>
 
+            <section class="section-features">
+                
+                <div class="row">
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-world"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Front End</h3>
+                            <p class="feature-box__text">
+                                <li>JavaScript</li>
+                                <li>React</li>
+                                <li>HTML/SCSS/CSS</li>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-compass"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Back End</h3>
+                            <p class="feature-box__text">
+                                <li>NodeJS</li>
+                                <li>Express</li>
+                                <li>Python</li>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-map"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Database</h3>
+                             <p class="feature-box__text">
+                                <li>PostgresSQL</li>
+                                <li>SQLite</li>
+                                <li>SQL</li>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-heart"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Tools</h3>
+                            <p class="feature-box__text">
+                                <li>Git/Github</li>
+                                <li>Postman</li>
+                                <li>Jest</li>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
     </div>
 
     )    
