@@ -38,6 +38,9 @@ export default function Home() {
         </section>  
 
         <section class="section-features">
+        <h2 class="heading-secondary-skills">
+                        Skills
+                    </h2>
                 
                 <div class="row">
                     <div class="col-1-of-4">
