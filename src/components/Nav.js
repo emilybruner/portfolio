@@ -1,8 +1,9 @@
 import React from 'react';
+import '../sass/components/_navigation.scss';
 
 export default function Nav() {
     return (
-        <nav classname="navigation">
+        <nav class="navigation">
             <ul>Resume</ul>
             <ul>Projects</ul>
             <ul>Skills</ul>
