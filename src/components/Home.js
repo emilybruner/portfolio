@@ -29,7 +29,7 @@ export default function Home() {
                     <div class="col-1-of-2">
                     <h3 class="heading-tertiary u-margin-bottom-small">About</h3>
                     <p class="paragraph">
-                            Hi, I'm Emily. I'm a full stack web developer based in Cary, NC.
+                            Hi, I'm Emily. I'm a full stack web developer based in Cary, NC. Add photo here
                         </p>
                     </div>
                         </div>
